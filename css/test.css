@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.medpadtop {
+	padding-top: 35px;
+}
+
+.margintop {
+	margin-top:-35%;
+}
+
+.width {
+	max-width: 720px;
+	margin:auto;
+	
+}
+
+.color {
+	background-color:mintcream;
+}
+
+.img {
+	height:auto;
+	width:100%;
+}
+
+.center {
+	display:flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.padding {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.padleft {
+	padding-left: 10px;
+}
+
+.padright {
+	padding-right: 35px;
+}
+
+.padtop {
+	padding-top:30px;
+}
+
+.smallpadtop {
+	padding-top:5px;
+}
+
+h1 {
+	padding-top:15px;
+}
+
+hr {
+	color: #f00;
+	height: 5px;
+	padding:0;
+	margin:0;
+}
+
+@media only screen and (max-device-width: 500px) {
+	.margintop {
+	margin-top:-60%;
+}
+
+
+  
+
+
+
+    }
